@@ -44,6 +44,7 @@ A rebuild of a multi-site Active Directory environment, inspired by coursework b
 
 - **VirtualBox** on a 32GB RAM machine, Windows Server evaluation ISOs
 - Multi-site design (three sites), domain controllers per site, one RODC
+- **Built and documented in phases:** core site first, second/third sites and the RODC following. Frame every page as complete-so-far — a smaller finished scope always beats placeholder pages that age. Never present unfinished scope as done.
 - Scope: AD DS forest/domain, DHCP (IPv4 + IPv6 scopes, reservations, failover), DNS (forwarders, reverse zones, CNAMEs), OU structure, users and security groups (global + domain local), delegation of control, file shares with NTFS/share permissions, Group Policy (account policies, auditing, workstation security, restricted groups)
 - **Important:** this is original lab work described in Emmanuel's own words. Never reference, reproduce, or link course assignment documents.
 
@@ -60,6 +61,14 @@ How the connection is made concrete:
 ## Project 3: Enterprise Network Security (listed on homepage)
 
 Multi-zone pfSense network (LAN, DMZ, WAN) with OpenVPN, internal PKI, HAProxy, and hardened web servers.
+
+## Side project: greenMachine (deliberately downplayed)
+
+A just-for-fun Node.js CLI that renders pixel art onto a GitHub contribution graph via backdated commits. It is not part of the help desk narrative and must not dilute it:
+
+- Lives under its own "Side Projects" group in SUMMARY.md, below the flagship projects; on the homepage it's a separate "Side project" line, not a bullet in the main Projects list
+- Frame it as a novelty/art tool and lead with the engineering (pixel font, layout engine, date math, CLI design, terminal preview)
+- Always note it runs on a dedicated throwaway repo — never word it in a way that could read as gaming contribution metrics
 
 ## Writing rules for this site
 - First person, Emmanuel's voice; confident but factual — no inflated claims

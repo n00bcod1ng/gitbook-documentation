@@ -21,7 +21,7 @@ This project is currently in progress. Pages in this section are being filled in
 
 * **Hypervisor:** VirtualBox on a 32GB RAM host machine
 * **Operating systems:** Windows Server evaluation ISOs
-* **Topology:** three sites, with domain controllers per site and one read-only domain controller (RODC)
+* **Topology:** a multi-site design built in phases — the core site first, with the second and third sites and a read-only domain controller (RODC) following. Each published phase stands on its own.
 
 ### Build Phases
 

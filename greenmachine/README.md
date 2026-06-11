@@ -1,13 +1,17 @@
 ---
 description: >-
-  A Node.js CLI tool that renders text and pixel art onto the GitHub
-  contribution graph using backdated commits, with a live terminal preview
-  before anything is written.
+  A just-for-fun side project: a Node.js CLI with a hand-built pixel font,
+  a layout engine, and a live terminal preview that renders pixel art onto
+  a sandbox GitHub contribution graph.
 ---
 
 # greenMachine
 
-greenMachine turns the GitHub contribution graph into a canvas. Pass it any word and it renders that text as pixel art on the graph by generating backdated Git commits — one or more per "lit" pixel.
+{% hint style="info" %}
+This is a side project, separate from the IT operations work on the rest of this site. It's a novelty art tool — the reason it's here is the engineering: a hand-built pixel font, a layout engine, calendar math, and an interactive CLI.
+{% endhint %}
+
+greenMachine treats the GitHub contribution graph as a canvas. Pass it any word and it renders that text as pixel art by generating backdated Git commits on a **dedicated throwaway repository** — one or more per "lit" pixel. It's graph art on a sandbox repo, built to understand how Git author dates drive the contribution graph — not a way to inflate real activity.
 
 The standout feature is safety-first rendering: it **previews the pattern in the terminal and asks for confirmation before committing anything**, so misaligned letters are caught before hundreds of commits get pushed.
 

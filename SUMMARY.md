@@ -23,4 +23,7 @@
     * [File Shares & Permissions](enterprise-systems-administration/building-the-environment/file-shares-and-permissions.md)
     * [Group Policy](enterprise-systems-administration/building-the-environment/group-policy.md)
   * [Lessons Learned](enterprise-systems-administration/lessons-learned.md)
+
+## Side Projects
+
 * [greenMachine](greenmachine/README.md)
