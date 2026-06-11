@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+Read PROJECT-CONTEXT.md before writing or editing any project content — it contains the background, environment details, and writing rules for this site.
+
 ## What This Repository Is
 
 A GitBook documentation site (markdown content only — no build, lint, or test tooling) for Emmanuel Prada-Florez's IT portfolio. It is synced to GitBook via Git Sync: edits pushed to `main` publish to the site, and edits made in the GitBook UI are auto-committed back to this repo (commits like `GITBOOK-11: No subject`).
