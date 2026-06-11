@@ -16,7 +16,9 @@ This page is a placeholder — content is added as the build progresses.
 
 * Forest and domain design decisions (naming, functional levels) and the reasoning
 * Promoting the first domain controller
-* Configuring AD Sites and Services: sites, subnets, and site links
+* Configuring AD Sites and Services: Nortex's three sites, their subnets, and site links
 * Adding additional DCs per site and verifying replication
 * Deploying the RODC — what it does and doesn't cache, and why a branch site gets one
 * Verification steps: replication health, SYSVOL, DNS registration
+
+**Help desk connection:** these are the domain controllers that real account lockouts and sign-in failures authenticate against — the round-two versions of the service desk's account tickets get resolved here.

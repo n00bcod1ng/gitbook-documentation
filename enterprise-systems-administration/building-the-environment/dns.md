@@ -19,3 +19,5 @@ This page is a placeholder — content is added as the build progresses.
 * Reverse lookup zones for each site's subnets (IPv4 and IPv6)
 * CNAME records for services, and why aliases beat hardcoding server names
 * Verification: `nslookup` tests, reverse resolution, dynamic registration from clients
+
+**Help desk connection:** "the app works by IP but not by name" and "can't reach the file server" tickets are DNS tickets — this page is where those diagnoses come from.

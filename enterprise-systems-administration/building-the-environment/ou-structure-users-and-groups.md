@@ -15,7 +15,9 @@ This page is a placeholder — content is added as the build progresses.
 ### What this page will cover
 
 * The OU design and the reasoning — OUs exist for GPO linking and delegation, not for looking like an org chart
-* User account provisioning: naming conventions and account properties
+* Mapping Nortex Solutions onto the directory: Finance, Sales, and Operations as OUs and security groups
+* Provisioning Nortex's employees as real accounts — the same users from the service desk tickets, with naming conventions and account properties
 * Security groups: global groups for roles, domain local groups for resources (AGDLP)
-* Delegation of control — giving a support role just enough permission (e.g., password resets) without Domain Admins
-* How this structure feeds the help desk project: real accounts that can really lock out
+* Building the **Tier 1 Support** role with delegation of control — just enough permission for password resets, unlocks, and group changes, without Domain Admins
+
+**Help desk connection:** this is where the simulated becomes real — Sarah Chen's account can now actually expire and lock out, and the Tier 1 account built here is the one all round-two tickets get resolved from.

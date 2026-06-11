@@ -16,7 +16,9 @@ This page is a placeholder — content is added as the build progresses.
 
 * Host machine specs and why VirtualBox was chosen
 * VM inventory: names, roles, CPU/RAM/disk allocations
-* The three-site network design — subnets per site and how VirtualBox networking models them
+* The three-site network design — Nortex Solutions' locations, subnets per site, and how VirtualBox networking models them
 * IP addressing plan (IPv4 and IPv6)
 * Windows Server evaluation ISO setup and base VM template
 * Diagram of the final topology
+
+**Help desk connection:** this is the network every Nortex ticket happens on — connectivity and "can't reach the server" tickets trace back to the design decisions made here.

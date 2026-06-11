@@ -20,3 +20,5 @@ This page is a placeholder — content is added as the build progresses.
 * Restricted groups: controlling local Administrators membership centrally
 * GPO scoping: how link order, OU structure, and security filtering decide what applies where
 * Verifying results with `gpresult` and testing on a domain-joined client
+
+**Help desk connection:** the password policy set here is what will drive the real version of the service desk's password-expiry ticket — and "GPO not applying" troubleshooting with `gpupdate`/`gpresult` becomes a ticket category of its own.

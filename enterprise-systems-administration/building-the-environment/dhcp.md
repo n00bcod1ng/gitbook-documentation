@@ -20,3 +20,5 @@ This page is a placeholder — content is added as the build progresses.
 * DHCP failover configuration between servers, and the failover mode chosen
 * Scope options (DNS servers, gateway) and how they interact with site design
 * Testing: lease acquisition from each site, failover behavior when a server goes down
+
+**Help desk connection:** "no network connection" and IP conflict tickets start here — understanding scopes and reservations is what separates guessing from diagnosing.

@@ -48,7 +48,14 @@ A rebuild of a multi-site Active Directory environment, inspired by coursework b
 - **Important:** this is original lab work described in Emmanuel's own words. Never reference, reproduce, or link course assignment documents.
 
 ### Portfolio narrative (important)
-The two projects are intentionally linked: **"I built the infrastructure, then operated a help desk on top of it."** Once the AD environment exists, help desk tickets become real (actual account lockouts, GPO issues, share permission problems) instead of simulated. Pages should reinforce this build-then-operate narrative wherever natural.
+The two projects are intentionally linked: **"I built the infrastructure, then operated a help desk on top of it."** The target audience is help desk hiring managers, so the framing is always **help desk first** — the AD build exists to make the support skills credible, not the other way around. Lead with ticket handling, troubleshooting reasoning, and user communication; let the sysadmin depth be the supporting evidence.
+
+How the connection is made concrete:
+
+- **Nortex continuity:** the AD environment *is* Nortex Solutions' infrastructure. Finance, Sales, and Operations become real OUs and security groups; the five simulated employees become real AD accounts; the three sites are Nortex locations. One company, one continuous story across both projects.
+- **Round-two ticket queue:** once the environment exists, re-run ticket scenarios against real infrastructure — a real password-expiry lockout driven by the GPO password policy, real new-hire provisioning (account, groups, home folder, GPOs), plus new tickets the build naturally generates (share access denied, GPO not applying, drive mapping failures). Document the before/after explicitly: "Ticket #1 was simulated; this one is real."
+- **Tier 1 delegated account:** create a Tier 1 Support role with delegated rights (password resets, unlocks, group membership on specific OUs) and resolve tickets from that account, never Domain Admins. Demonstrates least privilege and how a real help desk operates.
+- **Cross-link both directions:** every build-phase page ends with a short "Help desk connection" note explaining what tickets that system enables; ticket pages link back to the infrastructure page that explains the system involved.
 
 ## Project 3: Enterprise Network Security (listed on homepage)
 
